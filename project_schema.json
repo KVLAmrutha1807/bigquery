@@ -1,0 +1,148 @@
+{
+    "employees": {
+        "countries": [
+            {
+                "name": "country_id",
+                "type": "STRING"
+            },
+            {
+                "name": "country_name",
+                "type": "STRING"
+            },
+            {
+                "name": "region_id",
+                "type": "INTEGER"
+            }
+        ],
+        "departments": [
+            {
+                "name": "department_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "department_name",
+                "type": "STRING"
+            },
+            {
+                "name": "location_id",
+                "type": "INTEGER"
+            }
+        ],
+        "employees": [
+            {
+                "name": "employee_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "first_name",
+                "type": "STRING"
+            },
+            {
+                "name": "last_name",
+                "type": "STRING"
+            },
+            {
+                "name": "email",
+                "type": "STRING"
+            },
+            {
+                "name": "phone_number",
+                "type": "STRING"
+            },
+            {
+                "name": "hire_date",
+                "type": "DATE"
+            },
+            {
+                "name": "job_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "salary",
+                "type": "FLOAT"
+            },
+            {
+                "name": "manager_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "department_id",
+                "type": "INTEGER"
+            }
+        ],
+        "jobs": [
+            {
+                "name": "job_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "job_title",
+                "type": "STRING"
+            },
+            {
+                "name": "min_salary",
+                "type": "FLOAT"
+            },
+            {
+                "name": "max_salary",
+                "type": "FLOAT"
+            }
+        ],
+        "locations": [
+            {
+                "name": "location_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "street_address",
+                "type": "STRING"
+            },
+            {
+                "name": "postal_code",
+                "type": "STRING"
+            },
+            {
+                "name": "city",
+                "type": "STRING"
+            },
+            {
+                "name": "state_province",
+                "type": "STRING"
+            },
+            {
+                "name": "country_id",
+                "type": "STRING"
+            }
+        ],
+        "regions": [
+            {
+                "name": "region_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "region_name",
+                "type": "STRING"
+            }
+        ]
+    },
+    "movies": {
+        "awards": [
+            {
+                "name": "Award",
+                "type": "STRING"
+            },
+            {
+                "name": "Category",
+                "type": "STRING"
+            },
+            {
+                "name": "Nominee",
+                "type": "STRING"
+            },
+            {
+                "name": "Result",
+                "type": "STRING"
+            }
+        ]
+    }
+}

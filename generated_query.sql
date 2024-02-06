@@ -1,0 +1,1 @@
+select     locations.street_address,     locations.city,     locations.state_province,     locations.postal_code   from     locations
